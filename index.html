@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+        <h1>Form Submission :</h1>
+        <form action="" onsubmit="signup(event)">
+            <label for="name">First Name :</label><br>
+        <input type="text" name="firs name" id="firstname" placeholder="first name"><br>
+        <label for="name">Last Name :</label><br>
+        <input type="text" name="last name" id="lastname" placeholder="last name"><br>
+        <label for="address">Address Line 1 :</label><br>
+        <input type="text" name="address" id="address1" placeholder="address line 1"><br>
+        <label for="address">Address Line 2 :</label><br>
+        <input type="text" name="address" id="address2" placeholder="address line 2"><br>
+        <label for="name">PIN :</label><br>
+        <input type="text" name="firs name" id="pin" placeholder="pin"><br>
+        <label for="radio">Gender</label><br><br>
+        <input type="radio" name="male" id="radio" >
+        <label for="male">male</label>
+        <input type="radio" name="male" id="radio" >
+        <label for="Female">Female</label><br><br>
+        <label for="" >choice of food : (must choose at least
+            <br> 2 out of 5 option) </label><br>
+        <div class="fooditem" id="fooditem">
+            <input type="checkbox" name="" id="food1">
+        <label for="">north indian </label><br>
+        <input type="checkbox" name="" id="food2">
+        <label for="">Chinese </label><br>
+        <input type="checkbox" name="" id="food3">
+        <label for="">South indian </label><br>
+        <input type="checkbox" name="" id="food4">
+        <label for=""> japanese</label><br>
+        <input type="checkbox" name="" id="food5">
+        <label for=""> burma</label><br><br>
+        </div>
+        <label for="state"> State :</label><br>
+        <input type="text" name="" id="state" placeholder="state"><br>
+        <label for="country"> country : </label><br>
+        <input type="text" name="" id="country" placeholder="country"><br><br>
+<button  type="submit" class="btn">submit</button>
+
+        </form>
+
+
+
+    </div>
+    </div>
+    <h2>info</h2>
+    <div class="output">
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

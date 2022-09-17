@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: left;
+}
+.container{
+   background-color: #848484;
+}
+.box{
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 30px 50px;
+   
+}
+label{
+     font-family: initial;
+     font-weight: 600;
+     font-size: larger;
+   
+    
+}
+input{
+    width: 200px;
+    padding: 5px 20px;
+}
+button{
+    padding: 10px 20px;
+    width: 200px;
+    color: black;
+    background-color: turquoise;
+    border-radius: 10px;
+}
+.fooditem{
+    align-items: center;
+}
